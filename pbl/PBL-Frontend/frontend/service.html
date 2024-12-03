@@ -54,7 +54,7 @@
             </span>
           </a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" tsesuyype="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""> </span>
           </button>
 
@@ -63,21 +63,15 @@
               <li class="nav-item ">
                 <a class="nav-link" href="index.html">Home </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="service.html">Services <span class="sr-only">(current)</span> </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="why.html">Why Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="team.html">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html"></i> Login</a>
-              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="service.html" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                    <a class="dropdown-item" href="pendaftaran.html">Pendaftaran</a>
+                    <a class="dropdown-item" href="registrasi.html">Registrasi</a>
+                </div>
+            </li>              
               <form class="form-inline">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
                   <i class="fa fa-search" aria-hidden="true"></i>
@@ -99,10 +93,11 @@
       <div class="container ">
         <div class="heading_container heading_center">
           <h2>
-            Our <span>Services</span>
+            Layanan <span>Akademik</span>
           </h2>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+           Jurusan Teknologi Infomarsi <br>
+           Politeknik Negeri Malang
           </p>
         </div>
         <div class="row">
@@ -113,7 +108,7 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Currency Wallet
+                  Bebas Tangungan
                 </h5>
                 <p>
                   fact that a reader will be distracted by the readable content of a page when looking at its layout.
@@ -133,7 +128,7 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Security Storage
+                  Surat keterangan Lulus Administrasi
                 </h5>
                 <p>
                   fact that a reader will be distracted by the readable content of a page when looking at its layout.
@@ -153,12 +148,10 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Expert Support
+                  Pusat Bantuan
                 </h5>
                 <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
+                  Penyampaian kendala terkait administrasi akademik seperti daftar ulang, pembayaran UKT/IPI, beasiswa dan lain-lain
                 </p>
                 <a href="">
                   Read More
@@ -243,17 +236,8 @@
               <a class="active" href="index.html">
                 Home
               </a>
-              <a class="" href="about.html">
-                About
-              </a>
               <a class="" href="service.html">
                 Services
-              </a>
-              <a class="" href="why.html">
-                Why Us
-              </a>
-              <a class="" href="team.html">
-                Team
               </a>
               <a class="" href="login.html">
                 Login
